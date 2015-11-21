@@ -1,14 +1,9 @@
-ArrayList<Float[]> list = new ArrayList<Float[]>();
-Float[] fl = new Float[2];
+Object o1 = new Object();
 
 void setup()
 {
-
-  list.add(0,fl);
-  
+  o1.show();
+  o1.inc(10);
+  o1.show();
 }
 
-void draw()
-{
-  
-}
